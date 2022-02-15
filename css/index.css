@@ -1,0 +1,305 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 65px;
+    box-shadow: 2px 1px 5px 1px gray ;
+    
+    position: fixed;
+}
+.gmail-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+   
+.buttons{
+    
+    display: flex;
+    gap: 40px;
+}
+.btn{
+    font-size: 16px;
+    color: #1A73E8;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+.first-btn{
+  background-color: #fff;
+}
+.first-btn:hover{
+    background-color: rgb(243, 246, 247);
+  }
+.second-btn{
+   border-radius: 2px;
+   border: 1px solid rgb(192, 216, 224);
+   background-color: #fff;
+
+}
+.second-btn:hover{
+    background-color: rgb(181, 192, 192);
+}
+.third-btn{
+
+  background-color:#1A73E8 ;
+  color: #fff;
+  border-radius: 4px;
+}
+.third-btn:hover{
+
+    background-color:#1A73E8 ;
+    
+  }
+.logo{
+    margin-left: 40px;
+}
+.span-logo{
+    text-align: center;
+   color:  #5f6368;
+}
+.div-first{
+    display: flex;
+}
+.secure-box{
+    flex: 1;
+    padding: 50px;
+}
+.space{
+    height: 100px;
+}
+.text-padding{
+    /* padding : 0px 240px 30px 240px;*/
+    text-align: center;
+    line-height: 25px;
+} 
+.compose{
+    flex: 1;
+}
+.secure-part1{
+    font-size: 35px;
+}
+.secure-part2{
+    color:  #5f6368;
+    padding-bottom: 10px;
+}
+.privacy-left{
+    flex :1;
+    padding-right: 100px;
+
+}
+.privacy{
+    display: flex;
+    margin-left: 40px;
+}
+.privacy-logo img{
+    flex: 1;
+    margin-top: 80px;
+    height: 500px;
+    width: 500px;
+    padding: 40px;
+  
+}
+.privacy-email{
+    font-size: 20px;
+}
+.privacy-1 h3{
+    font-size: 20px;
+    color:  #3c4043;
+}
+.privacy-1 h3:hover{
+    color:#1A73E8 ;
+    transition: all 1s ease-in-out;
+
+}
+.privacy-1 {
+    font-size: 15px;
+    color:  #5f6368;;
+}
+.strock{
+    height: 100px;
+    width: 6px;
+    background-color:#f1f3f4;
+    margin-right: 30px;
+   
+}
+.secure-full{
+    display: flex;
+}
+.strock-c{
+    height: 0px;
+}
+.strock:hover .strock-c{
+    height: 100px;
+    width: 3px;
+    background-color:#1A73E8;
+    transition: all 1s ease-in-out;
+   
+}
+.section3-logo img{
+    flex: 1;
+    width: 700px;
+    height: auto;
+    margin: 0;
+    margin-left: -100px;
+    margin-top: 80px;
+    /* box-shadow: 4px 4px 1px 2px gray; */
+
+
+}
+.section3{
+    display: flex;
+}
+.section3-content{
+    flex:1;
+    padding: 60px;
+}
+.section4{
+    display: flex;
+    gap: 40px;
+    
+    background-color: #f8f9fa;
+    padding: 100px;
+}
+.part-1 h3{
+    font-size: 20px;
+    color:  #3c4043;
+}
+.part-1 p{
+    font-size: 16px;
+    color: #5f6368;;
+}
+
+.section5-logo{
+    margin-left: 280px;
+    padding: 0 200px;
+}
+.section5 h1{
+    font-size: 35px;
+    padding-top: 50px;
+    margin-left: 300px;
+    color:  #202124;
+}
+.section5 h3{
+    font-size: 25px;
+    margin-left: 350px ;
+    color:  #5f6368;
+}
+.section5 p{
+    padding-left: 400px;
+    color:  #5f6368;
+    font-size: 18px;
+    padding-right: 400px;
+}
+.learn{
+    margin: none;
+    border-style: none;
+    align-items: center;
+    font-size: 20px;
+    background-color: transparent;
+    color: #1a73e8;
+    border-radius: 4px;
+    justify-content: center;
+    padding: 17px;
+    margin-left: 570px;
+    margin-top: 10px;
+}
+.learn:hover{
+    background-color:rgb(243, 246, 247);
+}
+.section7{
+    background-color: #f8f9fa;
+    padding: 100px;
+    display: flex;
+}
+.section7-part1,.section7-part2{
+ flex:1;
+}
+
+.help-box{
+    background: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 6px;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+}
+.help-box h4{
+    color:#5f6368 ;
+}
+.center-box{
+    height: 20px;
+    width: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px;
+    margin-top: 10px;
+    color:  #1a73e8;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+}
+summary{
+    color:#202124;
+    padding: 10px;
+    list-style: none;
+}
+.section7-part2 p{
+   color:  #5f6368;
+   transition: all 1s ease-out;
+   padding: 10px;
+
+}
+.section8-logo{
+   margin-left: 600px;
+}
+.part1,.part2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 500px;
+}
+.part2{
+    margin-left: 520px;
+}
+.part3{
+    color: #3c4043;
+    padding-top: 20px;
+    margin-left: 400px;
+    font-size: 30px;
+}
+
+.buttons-1{
+   margin-left: 500px;
+   padding: 60px;
+}
+.btn-work{
+    margin-left: 36px;
+    padding-top: 20px;
+}
+.footer{
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 30px;
+    color: #3c4043;
+}
+.fpart1{
+    display: flex;
+    flex: 1;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.fpart2{
+    display: flex;
+    flex :1;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+@media (min-width : 900px){
+   .buttons .btn .third-btn{
+       content: 'Get Gmail';
+   }
+}
